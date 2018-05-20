@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4632961020B237B100570AFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4632960F20B237B100570AFB /* AppDelegate.swift */; };
+		46841DE01BED8EA100DEB2C8 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46841DDF1BED8EA100DEB2C8 /* CircleView.swift */; };
+		46E6AB5E1BED8322008B1D03 /* QuadriController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E6AB5D1BED8321008B1D03 /* QuadriController.swift */; };
+		46E6AB611BED8322008B1D03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E6AB5F1BED8322008B1D03 /* Main.storyboard */; };
+		46E6AB631BED8322008B1D03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46E6AB621BED8322008B1D03 /* Assets.xcassets */; };
+		46E6AB661BED8322008B1D03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46E6AB641BED8322008B1D03 /* LaunchScreen.storyboard */; };
+		46E6AB711BED8322008B1D03 /* QuadrilateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E6AB701BED8322008B1D03 /* QuadrilateTests.swift */; };
+		46E6AB7C1BED8322008B1D03 /* QuadrilateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E6AB7B1BED8322008B1D03 /* QuadrilateUITests.swift */; };
+		46E6AB901BED861B008B1D03 /* QuadriView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E6AB8F1BED861B008B1D03 /* QuadriView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46E6AB6D1BED8322008B1D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E6AB501BED8321008B1D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E6AB571BED8321008B1D03;
+			remoteInfo = Quadrilate;
+		};
+		46E6AB781BED8322008B1D03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E6AB501BED8321008B1D03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46E6AB571BED8321008B1D03;
+			remoteInfo = Quadrilate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4632960F20B237B100570AFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46841DDF1BED8EA100DEB2C8 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		46E6AB581BED8321008B1D03 /* Quadrilate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Quadrilate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E6AB5D1BED8321008B1D03 /* QuadriController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadriController.swift; sourceTree = "<group>"; };
+		46E6AB601BED8322008B1D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46E6AB621BED8322008B1D03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46E6AB651BED8322008B1D03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46E6AB671BED8322008B1D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E6AB6C1BED8322008B1D03 /* QuadrilateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadrilateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E6AB701BED8322008B1D03 /* QuadrilateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrilateTests.swift; sourceTree = "<group>"; };
+		46E6AB721BED8322008B1D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E6AB771BED8322008B1D03 /* QuadrilateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuadrilateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46E6AB7B1BED8322008B1D03 /* QuadrilateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuadrilateUITests.swift; sourceTree = "<group>"; };
+		46E6AB7D1BED8322008B1D03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46E6AB8F1BED861B008B1D03 /* QuadriView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuadriView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46E6AB551BED8321008B1D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB691BED8322008B1D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB741BED8322008B1D03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46E6AB4F1BED8321008B1D03 = {
+			isa = PBXGroup;
+			children = (
+				46E6AB5A1BED8321008B1D03 /* Quadrilate */,
+				46E6AB6F1BED8322008B1D03 /* QuadrilateTests */,
+				46E6AB7A1BED8322008B1D03 /* QuadrilateUITests */,
+				46E6AB591BED8321008B1D03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46E6AB591BED8321008B1D03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46E6AB581BED8321008B1D03 /* Quadrilate.app */,
+				46E6AB6C1BED8322008B1D03 /* QuadrilateTests.xctest */,
+				46E6AB771BED8322008B1D03 /* QuadrilateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46E6AB5A1BED8321008B1D03 /* Quadrilate */ = {
+			isa = PBXGroup;
+			children = (
+				46E6AB5D1BED8321008B1D03 /* QuadriController.swift */,
+				46841DDF1BED8EA100DEB2C8 /* CircleView.swift */,
+				46E6AB5F1BED8322008B1D03 /* Main.storyboard */,
+				46E6AB8F1BED861B008B1D03 /* QuadriView.swift */,
+				46E6AB621BED8322008B1D03 /* Assets.xcassets */,
+				46E6AB641BED8322008B1D03 /* LaunchScreen.storyboard */,
+				46E6AB671BED8322008B1D03 /* Info.plist */,
+				4632960F20B237B100570AFB /* AppDelegate.swift */,
+			);
+			path = Quadrilate;
+			sourceTree = "<group>";
+		};
+		46E6AB6F1BED8322008B1D03 /* QuadrilateTests */ = {
+			isa = PBXGroup;
+			children = (
+				46E6AB701BED8322008B1D03 /* QuadrilateTests.swift */,
+				46E6AB721BED8322008B1D03 /* Info.plist */,
+			);
+			path = QuadrilateTests;
+			sourceTree = "<group>";
+		};
+		46E6AB7A1BED8322008B1D03 /* QuadrilateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46E6AB7B1BED8322008B1D03 /* QuadrilateUITests.swift */,
+				46E6AB7D1BED8322008B1D03 /* Info.plist */,
+			);
+			path = QuadrilateUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46E6AB571BED8321008B1D03 /* Quadrilate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E6AB801BED8322008B1D03 /* Build configuration list for PBXNativeTarget "Quadrilate" */;
+			buildPhases = (
+				46E6AB541BED8321008B1D03 /* Sources */,
+				46E6AB551BED8321008B1D03 /* Frameworks */,
+				46E6AB561BED8321008B1D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Quadrilate;
+			productName = Quadrilate;
+			productReference = 46E6AB581BED8321008B1D03 /* Quadrilate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46E6AB6B1BED8322008B1D03 /* QuadrilateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E6AB831BED8322008B1D03 /* Build configuration list for PBXNativeTarget "QuadrilateTests" */;
+			buildPhases = (
+				46E6AB681BED8322008B1D03 /* Sources */,
+				46E6AB691BED8322008B1D03 /* Frameworks */,
+				46E6AB6A1BED8322008B1D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E6AB6E1BED8322008B1D03 /* PBXTargetDependency */,
+			);
+			name = QuadrilateTests;
+			productName = QuadrilateTests;
+			productReference = 46E6AB6C1BED8322008B1D03 /* QuadrilateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46E6AB761BED8322008B1D03 /* QuadrilateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46E6AB861BED8322008B1D03 /* Build configuration list for PBXNativeTarget "QuadrilateUITests" */;
+			buildPhases = (
+				46E6AB731BED8322008B1D03 /* Sources */,
+				46E6AB741BED8322008B1D03 /* Frameworks */,
+				46E6AB751BED8322008B1D03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46E6AB791BED8322008B1D03 /* PBXTargetDependency */,
+			);
+			name = QuadrilateUITests;
+			productName = QuadrilateUITests;
+			productReference = 46E6AB771BED8322008B1D03 /* QuadrilateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46E6AB501BED8321008B1D03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Kathryn Killebrew";
+				TargetAttributes = {
+					46E6AB571BED8321008B1D03 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 4R28S5TJB2;
+					};
+					46E6AB6B1BED8322008B1D03 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 46E6AB571BED8321008B1D03;
+					};
+					46E6AB761BED8322008B1D03 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 46E6AB571BED8321008B1D03;
+					};
+				};
+			};
+			buildConfigurationList = 46E6AB531BED8321008B1D03 /* Build configuration list for PBXProject "Quadrilate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46E6AB4F1BED8321008B1D03;
+			productRefGroup = 46E6AB591BED8321008B1D03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46E6AB571BED8321008B1D03 /* Quadrilate */,
+				46E6AB6B1BED8322008B1D03 /* QuadrilateTests */,
+				46E6AB761BED8322008B1D03 /* QuadrilateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46E6AB561BED8321008B1D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E6AB661BED8322008B1D03 /* LaunchScreen.storyboard in Resources */,
+				46E6AB631BED8322008B1D03 /* Assets.xcassets in Resources */,
+				46E6AB611BED8322008B1D03 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB6A1BED8322008B1D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB751BED8322008B1D03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46E6AB541BED8321008B1D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4632961020B237B100570AFB /* AppDelegate.swift in Sources */,
+				46841DE01BED8EA100DEB2C8 /* CircleView.swift in Sources */,
+				46E6AB901BED861B008B1D03 /* QuadriView.swift in Sources */,
+				46E6AB5E1BED8322008B1D03 /* QuadriController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB681BED8322008B1D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E6AB711BED8322008B1D03 /* QuadrilateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46E6AB731BED8322008B1D03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46E6AB7C1BED8322008B1D03 /* QuadrilateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46E6AB6E1BED8322008B1D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E6AB571BED8321008B1D03 /* Quadrilate */;
+			targetProxy = 46E6AB6D1BED8322008B1D03 /* PBXContainerItemProxy */;
+		};
+		46E6AB791BED8322008B1D03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46E6AB571BED8321008B1D03 /* Quadrilate */;
+			targetProxy = 46E6AB781BED8322008B1D03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46E6AB5F1BED8322008B1D03 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E6AB601BED8322008B1D03 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46E6AB641BED8322008B1D03 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46E6AB651BED8322008B1D03 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46E6AB7E1BED8322008B1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		46E6AB7F1BED8322008B1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = NO;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = NO;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_C_LANGUAGE_STANDARD = "compiler-default";
+				GCC_NO_COMMON_BLOCKS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				"GCC_WARN_64_TO_32_BIT_CONVERSION[arch=*64]" = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46E6AB811BED8322008B1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Quadrilate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.Quadrilate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46E6AB821BED8322008B1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Quadrilate/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.Quadrilate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46E6AB841BED8322008B1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuadrilateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.QuadrilateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadrilate.app/Quadrilate";
+			};
+			name = Debug;
+		};
+		46E6AB851BED8322008B1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QuadrilateTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.QuadrilateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quadrilate.app/Quadrilate";
+			};
+			name = Release;
+		};
+		46E6AB871BED8322008B1D03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuadrilateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.QuadrilateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quadrilate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46E6AB881BED8322008B1D03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QuadrilateUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.banderkat.QuadrilateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Quadrilate;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46E6AB531BED8321008B1D03 /* Build configuration list for PBXProject "Quadrilate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6AB7E1BED8322008B1D03 /* Debug */,
+				46E6AB7F1BED8322008B1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E6AB801BED8322008B1D03 /* Build configuration list for PBXNativeTarget "Quadrilate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6AB811BED8322008B1D03 /* Debug */,
+				46E6AB821BED8322008B1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E6AB831BED8322008B1D03 /* Build configuration list for PBXNativeTarget "QuadrilateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6AB841BED8322008B1D03 /* Debug */,
+				46E6AB851BED8322008B1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46E6AB861BED8322008B1D03 /* Build configuration list for PBXNativeTarget "QuadrilateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46E6AB871BED8322008B1D03 /* Debug */,
+				46E6AB881BED8322008B1D03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46E6AB501BED8321008B1D03 /* Project object */;
+}
